@@ -1,14 +1,18 @@
 .container {
   display: flex;
-  background-color: ivory;
+  // background-color: ivory;
   width: 100%;
   padding: 2rem;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .text {
-  min-width: 50%;
+  flex: 1;
+  max-width: 600px;
 }
 
 .image {
   min-width: 50%;
+  max-width: 400px;
 }
