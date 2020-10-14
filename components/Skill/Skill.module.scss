@@ -18,3 +18,13 @@
     cursor: pointer;
   }
 }
+
+.full {
+  color: $color-primary;
+  background-color: $color-secondary;
+  transition: all 0.25s;
+
+  &:hover {
+    background-color: $color-text;
+  }
+}

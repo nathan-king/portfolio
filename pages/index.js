@@ -37,22 +37,23 @@ export default function Home() {
           <Interests />
         </ScrollAnimation>
         <hr />
-
-        <ProjectSection>
-          {projects.map((project) => (
-            <ScrollAnimation animateIn="fadeIn">
-              <Project
-                id={project.id}
-                direction={project.direction}
-                name={project.name}
-                img={project.img}
-                description={project.description}
-                link={project.link}
-                features={project.features}
-              />
-            </ScrollAnimation>
-          ))}
-        </ProjectSection>
+        <ScrollAnimation animateIn="fadeIn">
+          <ProjectSection>
+            {projects.map((project) => (
+              <ScrollAnimation animateIn="fadeIn">
+                <Project
+                  id={project.id}
+                  direction={project.direction}
+                  name={project.name}
+                  img={project.img}
+                  description={project.description}
+                  link={project.link}
+                  features={project.features}
+                />
+              </ScrollAnimation>
+            ))}
+          </ProjectSection>
+        </ScrollAnimation>
         <Contact />
       </Layout>
 

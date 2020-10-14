@@ -15,7 +15,9 @@ export default function Interests() {
           <Skill>Web Dev</Skill>
           <Skill>Web Design</Skill>
           <Skill>React</Skill>
-          <Skill onClick={toggle}>See More...</Skill>
+          <Skill full={true} onClick={toggle}>
+            See More...
+          </Skill>
         </div>
       ) : (
         <>
