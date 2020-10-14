@@ -6,9 +6,10 @@ import Layout from "../components/Layout/Layout";
 import Hero from "../components/Hero/Hero";
 import Interests from "../components/Interests/Interests";
 import About from "../components/About/About";
-import Projects from "../components/Project/Project";
+import Project from "../components/Project/Project";
 import Contact from "../components/Contact/Contact";
 import ProjectSection from "../components/ProjectSection/ProjectSection";
+import projects from "../fixtures/projects.json";
 
 export default function Home() {
   return (
@@ -36,13 +37,21 @@ export default function Home() {
           <Interests />
         </ScrollAnimation>
         <hr />
+
         <ProjectSection>
-          <Projects
-            direction="row"
-            name="Netflix Clone"
-            img="/netflix-clone.jpg"
-          />
-          <Projects direction="row-reverse" name="Venue Website" />
+          {projects.map((project) => (
+            <ScrollAnimation animateIn="fadeIn">
+              <Project
+                id={project.id}
+                direction={project.direction}
+                name={project.name}
+                img={project.img}
+                description={project.description}
+                link={project.link}
+                features={project.features}
+              />
+            </ScrollAnimation>
+          ))}
         </ProjectSection>
         <Contact />
       </Layout>

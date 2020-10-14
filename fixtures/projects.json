@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Netflix Clone",
+    "img": "/netflix-clone.jpg",
+    "direction": "row",
+    "description": "This project is a minimalistic Netflix clone utilising Firefox for storage and authorisation. It utilises Styled Components for styling, compound components, large-scale React architecture, and custom hooks.",
+    "link": "https://netflix-clone-react-omega.vercel.app/",
+    "features": [
+      "React",
+      "Styled Components",
+      "Compound components",
+      "Large-Scale React Architecture",
+      "Firebase (Firestore & Auth)",
+      "Functional components",
+      "Custom hooks"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Venue Website",
+    "img": "/netflix-clone.jpg",
+    "direction": "row-reverse",
+    "description": "This project is a static Next.js site. It utilises SCSS modules for styling, functional components..."
+  }
+]

@@ -1,29 +1,43 @@
 .container {
-  display: flex;
+  margin: 2rem 0;
+  margin-bottom: 4rem;
+  width: 100%;
 }
 
 .project {
   display: flex;
   // background-color: ivory;
   width: 100%;
-  padding: 2rem;
+  // padding: 2rem;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .heading {
   color: white;
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .text {
   flex: 1;
-  max-width: 600px;
+  max-width: 400px;
+}
+
+.p {
+  margin-bottom: 1rem;
 }
 
 .image {
   min-height: 307px;
   min-width: 409px;
   border-radius: 4px;
-  // max-width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
