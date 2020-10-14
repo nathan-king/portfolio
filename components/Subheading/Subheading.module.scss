@@ -1,0 +1,13 @@
+@import "../../styles/Variables.scss";
+
+.number {
+  color: $color-secondary;
+  font-family: $font-mono;
+  font-size: 2rem;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: $color-tertiary;
+}

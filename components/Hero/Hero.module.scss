@@ -1,4 +1,30 @@
+@import "../../styles/Variables.scss";
 .container {
   // background-color: greenyellow;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.preheading {
+  font-family: $font-mono;
+  color: $color-secondary;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  font-size: 4rem;
+  color: $color-tertiary;
+}
+
+.heading2 {
+  margin-bottom: 1rem;
+  color: $color-text;
+}
+
+.subheading {
+  max-width: 500px;
+  line-height: 2rem;
 }

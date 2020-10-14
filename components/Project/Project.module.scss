@@ -1,10 +1,19 @@
 .container {
   display: flex;
+}
+
+.project {
+  display: flex;
   // background-color: ivory;
   width: 100%;
   padding: 2rem;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.heading {
+  color: white;
+  font-size: 2rem;
 }
 
 .text {
@@ -13,6 +22,8 @@
 }
 
 .image {
-  min-width: 50%;
-  max-width: 400px;
+  min-height: 307px;
+  min-width: 409px;
+  border-radius: 4px;
+  // max-width: 400px;
 }

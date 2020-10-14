@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 // BREAKPOINTS
 
 $xs: 480px;
@@ -8,4 +10,12 @@ $lg: 1200px;
 // COLOURS
 
 $color-primary: #34364d;
-$color-text: #e9e8eb;
+$color-secondary: #fdfac9;
+$color-tertiary: #ebecf3;
+$color-text: #a6abca;
+
+// FONTS
+
+// $font-header: "Martel", cursive;
+$font-header: "Arya", sans-serif;
+$font-mono: "Fira Code", Courier, monospace;
