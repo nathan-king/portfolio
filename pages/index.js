@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Nathan King | Web Developer</title>
         <link rel="icon" href="/favicon.svg" />
         <link
           rel="stylesheet"
@@ -50,6 +50,7 @@ export default function Home() {
                   link={project.link}
                   features={project.features}
                 />
+                <hr />
               </ScrollAnimation>
             ))}
           </ProjectSection>
