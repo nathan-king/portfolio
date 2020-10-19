@@ -27,7 +27,7 @@ export default function Interests() {
             <Skill>React</Skill>
           </div>
           <div className={styles.grid}>
-            <Skill>CSS-in-JSX</Skill>
+            <Skill>CSS-in-JS</Skill>
             <Skill>Sass/SCSS</Skill>
             <Skill>JavaScript (ES6+)</Skill>
           </div>

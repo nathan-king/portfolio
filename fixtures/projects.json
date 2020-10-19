@@ -4,23 +4,35 @@
     "name": "Netflix Clone",
     "img": "/netflix-clone.jpg",
     "direction": "row",
+    "heading": "left",
     "description": "This project is a minimalistic Netflix clone utilising Firefox for storage and authorisation. It utilises Styled Components for styling, compound components, large-scale React architecture, and custom hooks.",
     "link": "https://netflix-clone-react-omega.vercel.app/",
+    "githubLink": "https://github.com/nathan-king/netflix-clone-react",
     "features": [
       "React",
       "Styled Components",
       "Compound components",
       "Large-Scale React Architecture",
       "Firebase (Firestore & Auth)",
-      "Functional components",
-      "Custom hooks"
+      "Deployed with Vercel"
     ]
   },
   {
-    "id": 1,
-    "name": "Venue Website",
-    "img": "/netflix-clone.jpg",
+    "id": 2,
+    "name": "Gym Venue Website",
+    "img": "/gym-venue-website.jpg",
     "direction": "row-reverse",
-    "description": "This project is a static Next.js site. It utilises SCSS modules for styling, functional components..."
+    "heading": "right",
+    "description": "This project is a static Next.js site. It utilises Bootstrap and SCSS modules for styling.",
+    "link": "https://gym-venue-website.vercel.app/",
+    "githubLink": "https://github.com/nathan-king/gym-venue-website",
+    "features": [
+      "React",
+      "Next.js",
+      "SCSS/Sass",
+      "Reactstrap UI Components",
+      "Functional components",
+      "Deployed with Vercel"
+    ]
   }
 ]

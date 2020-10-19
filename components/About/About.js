@@ -4,7 +4,7 @@ import Subheading from "../Subheading/Subheading";
 
 export default function About() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="about">
       <div className={styles.text}>
         <Subheading number="01."> About Me</Subheading>
         <p>

@@ -24,19 +24,29 @@ export default function Home() {
       </Head>
 
       <Layout>
+        {/* HERO */}
+
         <ScrollAnimation animateIn="fadeIn">
           <Hero />
         </ScrollAnimation>
-
         <hr />
+
+        {/* ABOUT */}
+
         <ScrollAnimation animateIn="fadeIn">
           <About />
         </ScrollAnimation>
         <hr />
+
+        {/* SKILLS */}
+
         <ScrollAnimation animateIn="fadeIn">
           <Interests />
         </ScrollAnimation>
         <hr />
+
+        {/* PROJECTS */}
+
         <ScrollAnimation animateIn="fadeIn">
           <ProjectSection>
             {projects.map((project) => (
@@ -44,10 +54,12 @@ export default function Home() {
                 <Project
                   id={project.id}
                   direction={project.direction}
+                  heading={project.heading}
                   name={project.name}
                   img={project.img}
                   description={project.description}
                   link={project.link}
+                  githubLink={project.githubLink}
                   features={project.features}
                 />
                 <hr />
@@ -55,6 +67,9 @@ export default function Home() {
             ))}
           </ProjectSection>
         </ScrollAnimation>
+
+        {/* CONTACT */}
+
         <Contact />
       </Layout>
 

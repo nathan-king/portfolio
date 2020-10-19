@@ -4,7 +4,7 @@ import styles from "./ProjectSection.module.scss";
 
 export default function ProjectSection({ children }) {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="projects">
       <Subheading number="03."> Projects</Subheading>
       {children}
     </div>

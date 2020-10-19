@@ -12,9 +12,10 @@
   transition: transform 0.2s;
   font-family: $font-mono;
   color: $color-secondary;
+  cursor: pointer;
 
   &:hover {
-    color: $color-tertiary;
+    color: $color-highlight;
     // transform: scale(1.1);
   }
 }
