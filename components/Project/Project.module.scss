@@ -54,8 +54,13 @@
 }
 
 .image {
-  min-height: 307px;
-  min-width: 409px;
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 2rem;
+}
+
+.img {
+  width: 100%;
   border-radius: 4px;
   transition: all 0.5s;
   cursor: pointer;
@@ -87,4 +92,21 @@
   color: $color-tertiary;
   transition: all 0.3s;
   filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.5));
+}
+
+@media (max-width: $sm) {
+  .container {
+    margin: 0;
+  }
+
+  .text {
+    margin-bottom: 5rem;
+  }
+  .image {
+    padding: 0;
+  }
+
+  .project {
+    flex-direction: column !important;
+  }
 }

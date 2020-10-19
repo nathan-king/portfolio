@@ -3,6 +3,7 @@ import styles from "./Project.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import Ratio from "react-ratio";
 
 export default function Projects({ children, ...props }) {
   return (
@@ -21,15 +22,11 @@ export default function Projects({ children, ...props }) {
               ))}
           </ul>
         </div>
-        <a href={props.link} target="_blank">
-          <div className={`image ${styles.image}`}></div>
-        </a>
-        <style jsx>{`
-          .image {
-            background-image: url(${props.img});
-            background-size: cover;
-          }
-        `}</style>
+        <div className={styles.image}>
+          <a href={props.link} target="_blank">
+            <img src={props.img} className={styles.img} />
+          </a>
+        </div>
       </div>
       <div className={styles.links}>
         <a className={styles.a} href={props.link}>
