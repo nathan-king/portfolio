@@ -8,7 +8,7 @@ export default function Interests() {
   const toggle = () => setOn(!on);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="skills">
       <Subheading number="02."> Skills</Subheading>
       {!on ? (
         <div className={styles.grid}>

@@ -16,13 +16,23 @@ export default function Navbar() {
       </Link>
       <Link
         activeClass="active"
+        to="skills"
+        spy={true}
+        smooth={true}
+        duration={1000}
+      >
+        <a className={styles.navLink}>02. Skills</a>
+      </Link>
+      <Link
+        activeClass="active"
         to="projects"
         spy={true}
         smooth={true}
         duration={1000}
       >
-        <a className={styles.navLink}>02. Projects</a>
+        <a className={styles.navLink}>03. Projects</a>
       </Link>
+
       <Link
         activeClass="active"
         to="contact"
@@ -30,7 +40,7 @@ export default function Navbar() {
         smooth={true}
         duration={1000}
       >
-        <a className={styles.navLink}>03. Contact Me</a>
+        <a className={styles.navLink}>04. Contact Me</a>
       </Link>
     </nav>
   );

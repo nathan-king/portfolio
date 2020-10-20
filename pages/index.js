@@ -62,9 +62,9 @@ export default function Home() {
                   githubLink={project.githubLink}
                   features={project.features}
                 />
-                <hr />
               </ScrollAnimation>
             ))}
+            <hr />
           </ProjectSection>
         </ScrollAnimation>
 
