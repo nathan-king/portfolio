@@ -20,6 +20,12 @@
   color: $color-secondary;
   font-family: $font-mono;
   padding: 2rem;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+    color: $color-tertiary;
+  }
 }
 
 .grid {
