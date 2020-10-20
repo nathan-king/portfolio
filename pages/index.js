@@ -69,8 +69,9 @@ export default function Home() {
         </ScrollAnimation>
 
         {/* CONTACT */}
-
-        <Contact />
+        <ScrollAnimation animateIn="fadeIn">
+          <Contact />
+        </ScrollAnimation>
       </Layout>
 
       <footer className={styles.footer}></footer>

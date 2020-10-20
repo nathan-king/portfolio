@@ -1,11 +1,35 @@
+@import "../../styles/Variables.scss";
+
 .container {
   // background-color: lavender;
   width: 100%;
   padding: 2rem;
+  text-align: center;
 }
 
 .contactBox {
   margin: 0 auto;
-  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  flex-direction: column;
   // background-color: lightcoral;
+}
+
+.email {
+  color: $color-secondary;
+  font-family: $font-mono;
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  grid-gap: 1rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
 }

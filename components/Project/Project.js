@@ -29,10 +29,10 @@ export default function Projects({ children, ...props }) {
         </div>
       </div>
       <div className={styles.links}>
-        <a className={styles.a} href={props.link}>
+        <a className={styles.a} href={props.link} target="_blank">
           <FontAwesomeIcon icon={faEye} className={styles.icon} />
         </a>
-        <a className={styles.a} href={props.githubLink}>
+        <a className={styles.a} href={props.githubLink} target="_blank">
           <FontAwesomeIcon icon={faGithub} className={styles.icon} />
         </a>
       </div>
