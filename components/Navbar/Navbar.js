@@ -20,7 +20,7 @@ export default function Navbar() {
 
   // -------
 
-  if (!width || width < breakpoint) {
+  if (width === undefined || width < breakpoint) {
     return <Burger />;
   } else {
     return (
