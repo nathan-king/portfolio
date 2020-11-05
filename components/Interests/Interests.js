@@ -5,6 +5,7 @@ import Subheading from "../Subheading/Subheading";
 
 export default function Interests() {
   const [on, setOn] = useState(false);
+  const [flex, setFlex] = useState(false);
   const toggle = () => setOn(!on);
 
   return (
