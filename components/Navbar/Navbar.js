@@ -7,6 +7,7 @@ import "@animated-burgers/burger-slip/dist/styles.css";
 export default function Navbar() {
   // Make custom reusable hook and use in interests
   const [width, setWidth] = useState();
+  const [isOpen, setIsOpen] = useState(false);
   const breakpoint = 1200;
 
   function updateMedia() {
@@ -21,7 +22,14 @@ export default function Navbar() {
   // -------
 
   if (width === undefined || width < breakpoint) {
-    return <Burger />;
+    return (
+      <Burger
+        onClick={() => {
+          setIsOpen(!isOpen);
+        }}
+        isOpen={isOpen}
+      />
+    );
   } else {
     return (
       <nav className={styles.nav}>
