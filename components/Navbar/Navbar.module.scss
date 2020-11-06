@@ -23,3 +23,9 @@
 .roman {
   font-variant: small-caps;
 }
+
+@media (max-width: $lg) {
+  .nav {
+    display: none;
+  }
+}

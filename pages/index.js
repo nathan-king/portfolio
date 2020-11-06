@@ -21,6 +21,7 @@ export default function Home() {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
         ></link>
+        <meta name="viewport" content="width=device-width" />
       </Head>
 
       <Layout>
