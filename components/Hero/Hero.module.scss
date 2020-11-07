@@ -35,7 +35,8 @@
 
 @media (max-width: $sm) {
   .container {
-    padding: 1rem;
+    padding: 0 1rem;
+    min-height: none;
   }
 
   .heading {
