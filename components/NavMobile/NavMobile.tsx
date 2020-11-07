@@ -13,7 +13,10 @@ export default function NavMobile() {
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.burger} onClick={() => setVisible(!visible)}>
+      <div
+        className={`${styles.burger} ${visible ? styles.open : null}`}
+        onClick={() => setVisible(!visible)}
+      >
         <Burger isOpen={visible} />
       </div>
       <div className={`${styles.menu} ${visible ? styles.visible : null}`}>

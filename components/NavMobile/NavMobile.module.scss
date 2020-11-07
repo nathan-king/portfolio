@@ -2,12 +2,13 @@
 
 .burger {
   z-index: 100;
-  position: fixed;
+  position: absolute;
   top: 2rem;
   right: 3rem;
-  padding: 0.5rem;
-  background-color: $color-primary;
+  padding: 1rem;
+  // background-color: $color-primary;
   border-radius: 50%;
+  transition: all 0.5s;
 }
 
 .menu {
@@ -37,10 +38,18 @@
   opacity: 1;
 }
 
+.open {
+  background-color: $color-primary-darker;
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+  margin-top: 0rem;
+}
+
 .navLink {
   font-size: 1.5rem;
   color: $color-secondary;
-  font-weight: bold;
+  // font-weight: bold;
 }
 
 @media (min-width: $lg) {
