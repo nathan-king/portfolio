@@ -24,9 +24,7 @@ export default function NavMobile() {
           smooth={true}
           duration={1000}
         >
-          <a className={styles.navLink}>
-            <span className={styles.roman}>i.</span> About
-          </a>
+          <a className={styles.navLink}>About</a>
         </Link>
         <Link
           activeClass="active"
@@ -35,9 +33,7 @@ export default function NavMobile() {
           smooth={true}
           duration={1000}
         >
-          <a className={styles.navLink}>
-            <span className={styles.roman}>ii.</span> Skills
-          </a>
+          <a className={styles.navLink}>Skills</a>
         </Link>
         <Link
           activeClass="active"
@@ -46,9 +42,7 @@ export default function NavMobile() {
           smooth={true}
           duration={1000}
         >
-          <a className={styles.navLink}>
-            <span className={styles.roman}>iii.</span> Projects
-          </a>
+          <a className={styles.navLink}>Projects</a>
         </Link>
         <Link
           activeClass="active"
@@ -57,9 +51,7 @@ export default function NavMobile() {
           smooth={true}
           duration={1000}
         >
-          <a className={styles.navLink}>
-            <span className={styles.roman}>iv.</span> Contact Me
-          </a>
+          <a className={styles.navLink}>Contact Me</a>
         </Link>
       </div>
     </nav>
