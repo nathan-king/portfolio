@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Subheading.module.scss";
 
-export default function Subheading({ children, ...props }) {
+export default function Subheading({ children, ...props }: any) {
   return (
     <div className={styles.container}>
       <h2 className={styles.heading}>

@@ -53,6 +53,7 @@ export default function Home() {
             {projects.map((project) => (
               <ScrollAnimation animateIn="fadeIn">
                 <Project
+                  key={project.id}
                   id={project.id}
                   direction={project.direction}
                   heading={project.heading}

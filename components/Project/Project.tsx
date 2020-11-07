@@ -3,9 +3,8 @@ import styles from "./Project.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import Ratio from "react-ratio";
 
-export default function Projects({ children, ...props }) {
+export default function Projects({ children, ...props }: any) {
   return (
     <div className={styles.container}>
       <div
@@ -17,8 +16,10 @@ export default function Projects({ children, ...props }) {
           <p className={styles.p}>{props.description}</p>
           <ul className={styles.ul}>
             {!!props.features &&
-              props.features.map((feature) => (
-                <li className={styles.li}>{feature}</li>
+              props.features.map((feature: string, index: number) => (
+                <li key={index} className={styles.li}>
+                  {feature}
+                </li>
               ))}
           </ul>
         </div>

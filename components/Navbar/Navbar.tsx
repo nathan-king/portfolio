@@ -1,4 +1,5 @@
 import styles from "./Navbar.module.scss";
+// @ts-ignore
 import { Link } from "react-scroll";
 
 export default function Navbar() {

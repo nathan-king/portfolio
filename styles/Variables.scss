@@ -15,6 +15,8 @@ $color-tertiary: #ebecf3;
 $color-text: #a6abca;
 $color-highlight: #5d6ee2;
 
+$color-primary-darker: darken($color-primary, 10%);
+
 // FONTS
 
 // $font-header: "Martel", cursive;
