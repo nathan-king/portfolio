@@ -1,6 +1,7 @@
 // @ts-ignore
 import Burger from "@animated-burgers/burger-slip";
 import "@animated-burgers/burger-slip/dist/styles.css";
+// @ts-ignore
 import { Link } from "react-scroll";
 import { useState } from "react";
 
