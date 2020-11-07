@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.scss";
+
+// @ts-ignore
 import Typist from "react-typist";
 
 export default function Hero() {
