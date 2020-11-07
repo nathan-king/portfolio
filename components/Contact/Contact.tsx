@@ -23,7 +23,7 @@ export default function Contact() {
           </a>
         </p>
       </div>
-      <div className={styles.grid}>
+      <div className={styles.buttons}>
         <a href="https://github.com/nathan-king" target="_blank">
           <Skill>
             <FontAwesomeIcon icon={faGithub} className={styles.icon} /> Github

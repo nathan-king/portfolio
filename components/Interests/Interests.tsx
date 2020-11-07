@@ -12,7 +12,7 @@ export default function Interests() {
     <div className={styles.container} id="skills">
       <Subheading number="02."> Skills</Subheading>
       {!on ? (
-        <div className={styles.grid}>
+        <div className={styles.skills}>
           <Skill>Web Dev</Skill>
           <Skill>Web Design</Skill>
           <Skill>React</Skill>
@@ -22,12 +22,12 @@ export default function Interests() {
         </div>
       ) : (
         <>
-          <div className={styles.grid}>
+          <div className={styles.skills}>
             <Skill>Web Dev</Skill>
             <Skill>Web Design</Skill>
             <Skill>React</Skill>
           </div>
-          <div className={styles.grid}>
+          <div className={styles.skills}>
             <Skill>CSS-in-JS</Skill>
             <Skill>Sass/SCSS</Skill>
             <Skill>JavaScript (ES6+)</Skill>

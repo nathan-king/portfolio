@@ -28,7 +28,7 @@
   }
 }
 
-.grid {
+.buttons {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
@@ -38,4 +38,11 @@
 .icon {
   font-size: 1.5rem;
   margin-right: 0.5rem;
+}
+
+@media (max-width: $sm) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
 }

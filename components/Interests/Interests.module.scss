@@ -1,13 +1,24 @@
+@import "../../styles/Variables.scss";
+
 .container {
-  padding: 2rem;
+  padding: 1rem 0;
 
   // background-color: hotpink;
 }
 
-.grid {
+.skills {
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: space-evenly;
   grid-gap: 1rem;
   margin: 1rem;
+}
+
+@media (max-width: $sm) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 }

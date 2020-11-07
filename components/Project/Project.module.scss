@@ -26,6 +26,7 @@
 .text {
   flex: 1;
   max-width: 500px;
+  text-align: justify;
 }
 
 .p {
@@ -97,16 +98,30 @@
 @media (max-width: $sm) {
   .container {
     margin: 0;
+    margin-bottom: 2rem;
   }
 
   .text {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
   }
+
+  .p {
+    margin-bottom: 3rem;
+  }
+
   .image {
     padding: 0;
   }
 
   .project {
     flex-direction: column !important;
+  }
+
+  .ul {
+    margin-top: 2rem;
+  }
+
+  .li {
+    font-size: 1rem;
   }
 }
