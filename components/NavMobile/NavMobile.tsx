@@ -64,16 +64,3 @@ export default function NavMobile() {
     </nav>
   );
 }
-
-// const [width, setWidth] = useState();
-// const [open, setOpen] = useState(false);
-// const breakpoint = 1200;
-
-// function updateMedia() {
-//     setWidth(window.innerWidth);
-// }
-
-// useEffect(() => {
-//     window.addEventListener("resize", updateMedia);
-//     return () => window.removeEventListener("resize", updateMedia);
-// });
