@@ -11,8 +11,18 @@ import Project from "../components/Project/Project";
 import Contact from "../components/Contact/Contact";
 import ProjectSection from "../components/ProjectSection/ProjectSection";
 import projects from "../fixtures/projects.json";
+import Splash from "../components/Splash/Splash";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+  const [splash, setSplash] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setSplash(false);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <>
       <Head>
@@ -26,6 +36,7 @@ export default function Home() {
       </Head>
 
       <Layout>
+        <Splash splash={splash} />
         {/* HERO */}
 
         <ScrollAnimation animateIn="fadeIn">

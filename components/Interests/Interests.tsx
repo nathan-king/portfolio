@@ -15,6 +15,7 @@ import {
   faNodeJs,
   faWordpressSimple,
 } from "@fortawesome/free-brands-svg-icons";
+import { TransitionGroup } from "react-transition-group";
 
 export default function Interests() {
   const [on, setOn] = useState(false);
@@ -23,7 +24,7 @@ export default function Interests() {
 
   return (
     <div className={styles.container} id="skills">
-      <Subheading number="02."> Skills</Subheading>
+      <Subheading number="ii."> Skills</Subheading>
       {!on ? (
         <div className={styles.skills}>
           <Skill>
@@ -55,8 +56,6 @@ export default function Interests() {
             <Skill>
               React <FontAwesomeIcon icon={faReact} className={styles.icon} />
             </Skill>
-            {/* </div>
-          <div className={styles.skills}> */}
             <Skill>
               CSS-in-JS{" "}
               <FontAwesomeIcon icon={faFileCode} className={styles.icon} />

@@ -13,6 +13,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.11",
+    "@types/react-transition-group": "^4.4.0",
     "animate.css": "^4.1.1",
     "classnames": "^2.2.6",
     "next": "9.5.5",
@@ -22,6 +23,7 @@
     "react-dom": "16.13.1",
     "react-ratio": "^0.1.5",
     "react-scroll": "^1.8.1",
+    "react-transition-group": "^4.4.1",
     "react-typing-animation": "^1.6.2",
     "react-typist": "^2.0.5",
     "sass": "^1.27.0"
