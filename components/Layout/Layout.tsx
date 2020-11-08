@@ -5,8 +5,11 @@ import Header from "../Header/Header";
 export default function Layout({ children }: any) {
   return (
     <main className={styles.container}>
-      <Header />
-      {children}
+      <div className={styles.skew}></div>
+      <div className={styles.content}>
+        <Header />
+        {children}
+      </div>
     </main>
   );
 }

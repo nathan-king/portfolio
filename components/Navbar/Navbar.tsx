@@ -16,6 +16,7 @@ export default function Navbar() {
       >
         <a className={styles.navLink}>
           <span className={styles.roman}>i.</span> About
+          <hr className={styles.hr} />
         </a>
       </Link>
       <Link
@@ -27,6 +28,7 @@ export default function Navbar() {
       >
         <a className={styles.navLink}>
           <span className={styles.roman}>ii.</span> Skills
+          <hr className={styles.hr} />
         </a>
       </Link>
       <Link
@@ -38,6 +40,7 @@ export default function Navbar() {
       >
         <a className={styles.navLink}>
           <span className={styles.roman}>iii.</span> Projects
+          <hr className={styles.hr} />
         </a>
       </Link>
       <Link
@@ -49,6 +52,7 @@ export default function Navbar() {
       >
         <a className={styles.navLink}>
           <span className={styles.roman}>iv.</span> Contact Me
+          <hr className={styles.hr} />
         </a>
       </Link>
     </nav>

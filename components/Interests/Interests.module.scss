@@ -11,7 +11,12 @@
   grid-template-columns: auto auto auto auto;
   justify-content: space-evenly;
   grid-gap: 1rem;
-  // margin: 1rem;
+  margin: 1rem;
+}
+
+.icon {
+  font-size: 1.25rem;
+  margin-left: 1rem;
 }
 
 @media (max-width: $sm) {
@@ -20,5 +25,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin: 0;
   }
 }

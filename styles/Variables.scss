@@ -16,6 +16,7 @@ $color-text: #a6abca;
 $color-highlight: #5d6ee2;
 
 $color-primary-darker: darken($color-primary, 10%);
+$color-opaque: transparentize($color-primary-darker, 0.2);
 
 // FONTS
 

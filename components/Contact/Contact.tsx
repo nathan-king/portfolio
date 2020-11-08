@@ -17,8 +17,12 @@ export default function Contact() {
           you would like to have a chat, reach out to me!
         </p>
         <p className={styles.email}>
-          <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />
-          <a href="mailto:nath.king93@gmail.com" target="_blank">
+          <a
+            href="mailto:nath.king93@gmail.com"
+            target="_blank"
+            className={styles.emailLink}
+          >
+            <FontAwesomeIcon icon={faEnvelope} className={styles.mailIcon} />
             nath.king93@gmail.com
           </a>
         </p>
