@@ -10,7 +10,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 export default function Contact() {
   return (
     <div className={styles.container} id="contact">
-      <Subheading number="04."> Contact</Subheading>
+      <Subheading number="iv."> Contact</Subheading>
       <div className={styles.contactBox}>
         <p className={styles.p}>
           I am always open to new experiences and opportunities to grow. So if
@@ -25,6 +25,7 @@ export default function Contact() {
             <FontAwesomeIcon icon={faEnvelope} className={styles.mailIcon} />
             nath.king93@gmail.com
           </a>
+          <img className={styles.image} src="/contact.png" />
         </p>
       </div>
       <div className={styles.buttons}>

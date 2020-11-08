@@ -46,6 +46,7 @@
   font-family: $font-mono;
   transition: all 0.2s;
   align-self: center;
+  text-align: left;
   cursor: pointer;
 
   &:hover {
@@ -70,7 +71,7 @@
     0 16px 16px rgba(0, 0, 0, 0.12);
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
 }
 

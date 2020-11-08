@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className={styles.container} id="about">
       <div className={styles.text}>
-        <Subheading number="01."> About Me</Subheading>
+        <Subheading number="i."> About Me</Subheading>
         <p>
           I have always been passionate about technology. Having been born in
           the early 90s, I was able to watch the birth and evolution of the

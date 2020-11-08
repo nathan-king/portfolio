@@ -21,10 +21,16 @@
   padding: 2rem 2rem 2rem 2rem;
   // clip-path: polygon(0 0, 70% 0, 100% 30%, 100% 100%, 0 100%, 0% 50%);
   border-radius: 2px;
+  transition: ease-in 0.25s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 .photo {
   position: absolute;
-  right: 2rem;
+  right: 6rem;
   height: 350px;
   width: 350px;
   // min-width: 40%;
@@ -36,12 +42,19 @@
   cursor: pointer;
   transition: all 0.5s;
   // border-radius: 50%;
-  clip-path: polygon(15% 0, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
-
+  clip-path: polygon(
+    0% 20%,
+    60% 20%,
+    60% 0%,
+    100% 50%,
+    60% 100%,
+    60% 80%,
+    0% 80%
+  );
   &:hover {
     transform: scale(1.1);
     animation: hover ease 0.5s;
-    transform: translateX(-10%);
+    transform: translateX(10%);
   }
 }
 
