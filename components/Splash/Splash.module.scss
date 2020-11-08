@@ -1,21 +1,24 @@
+@import "../../styles/Variables.scss";
+
 .splash {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: black;
+  background: $color-primary-darker;
   z-index: 200;
   display: flex;
   display: none;
   align-content: center;
   justify-content: center;
+  animation: fadeOut 0.5s ease-out 2.5s;
 }
 
 .logo {
   margin: auto auto;
-  filter: invert(100%);
-  height: 5rem;
+  filter: drop-shadow(0 0 5px black);
+  height: 6rem;
   animation: fadeIn ease 2s;
 }
 
@@ -29,26 +32,35 @@
   }
   50% {
     opacity: 1;
-    transform: scale(1.5);
-    transform: rotate(10deg);
+    transform: scale(1.25);
+    transform: rotate(90deg);
   }
   75% {
-    transform: rotate(-10deg);
+    transform: rotate(-90deg);
   }
   80% {
-    transform: scale(2);
+    transform: scale(3);
   }
   85% {
-    transform: scale(1.5);
+    transform: scale(1.25);
   }
   90% {
-    transform: scale(1.75);
+    transform: scale(2.5);
   }
   95% {
-    transform: scale(1.5);
+    transform: scale(2);
   }
 
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
