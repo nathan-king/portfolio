@@ -16,13 +16,19 @@
   position: absolute;
   top: 0;
   right: 0;
-  opacity: 0.5;
-  filter: brightness(10%) contrast(80%);
+  opacity: 0.75;
+  filter: brightness(5%) contrast(90%);
 }
 
 .content {
   position: relative;
   z-index: 200;
+}
+
+@media (max-width: $lg) {
+  .container {
+    padding: 1rem 3rem;
+  }
 }
 
 @media (max-width: $sm) {

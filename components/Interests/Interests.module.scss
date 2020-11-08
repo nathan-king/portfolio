@@ -1,7 +1,7 @@
 @import "../../styles/Variables.scss";
 
 .container {
-  padding: 1rem 2rem;
+  padding: 1rem;
 
   // background-color: hotpink;
 }
@@ -11,12 +11,17 @@
   grid-template-columns: auto auto auto auto;
   justify-content: space-evenly;
   grid-gap: 1rem;
-  margin: 1rem;
 }
 
 .icon {
   font-size: 1.25rem;
   margin-left: 1rem;
+}
+
+@media (max-width: $lg) {
+  .skills {
+    grid-template-columns: auto auto auto;
+  }
 }
 
 @media (max-width: $sm) {

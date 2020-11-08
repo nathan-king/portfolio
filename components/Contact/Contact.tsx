@@ -12,7 +12,7 @@ export default function Contact() {
     <div className={styles.container} id="contact">
       <Subheading number="04."> Contact</Subheading>
       <div className={styles.contactBox}>
-        <p>
+        <p className={styles.p}>
           I am always open to new experiences and opportunities to grow. So if
           you would like to have a chat, reach out to me!
         </p>

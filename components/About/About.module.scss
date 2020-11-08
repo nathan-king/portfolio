@@ -45,9 +45,10 @@
   }
 }
 
-@media (max-width: $sm) {
+@media (max-width: $lg) {
   .container {
     padding: 1rem;
+    flex-direction: column;
   }
 
   .photo {

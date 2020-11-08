@@ -9,11 +9,28 @@
 
 .contactBox {
   margin: 0 auto;
+  max-width: 475px;
   display: flex;
   justify-content: center;
   padding: 1rem 2rem;
   flex-direction: column;
   // background-color: lightcoral;
+}
+
+.p {
+  text-align: left;
+  background-color: $color-primary-darker;
+  padding: 2rem;
+  padding-bottom: 5rem;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
 }
 
 .email {
