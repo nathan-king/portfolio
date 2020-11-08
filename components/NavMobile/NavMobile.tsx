@@ -27,7 +27,9 @@ export default function NavMobile() {
           smooth={true}
           duration={1000}
         >
-          <a className={styles.navLink}>About</a>
+          <a className={styles.navLink} onClick={() => setVisible(!visible)}>
+            About
+          </a>
         </Link>
         <Link
           activeClass="active"
@@ -36,7 +38,9 @@ export default function NavMobile() {
           smooth={true}
           duration={1000}
         >
-          <a className={styles.navLink}>Skills</a>
+          <a className={styles.navLink} onClick={() => setVisible(!visible)}>
+            Skills
+          </a>
         </Link>
         <Link
           activeClass="active"
@@ -45,7 +49,9 @@ export default function NavMobile() {
           smooth={true}
           duration={1000}
         >
-          <a className={styles.navLink}>Projects</a>
+          <a className={styles.navLink} onClick={() => setVisible(!visible)}>
+            Projects
+          </a>
         </Link>
         <Link
           activeClass="active"
@@ -54,7 +60,9 @@ export default function NavMobile() {
           smooth={true}
           duration={1000}
         >
-          <a className={styles.navLink}>Contact Me</a>
+          <a className={styles.navLink} onClick={() => setVisible(!visible)}>
+            Contact Me
+          </a>
         </Link>
       </div>
     </nav>
