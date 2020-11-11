@@ -42,21 +42,18 @@ export default function Home() {
         <ScrollAnimation animateIn="fadeIn">
           <Hero />
         </ScrollAnimation>
-        <hr />
 
         {/* ABOUT */}
 
         <ScrollAnimation animateIn="fadeIn">
           <About />
         </ScrollAnimation>
-        <hr />
 
         {/* SKILLS */}
 
         <ScrollAnimation animateIn="fadeIn">
           <Interests />
         </ScrollAnimation>
-        <hr />
 
         {/* PROJECTS */}
 
@@ -78,7 +75,6 @@ export default function Home() {
                 />
               </ScrollAnimation>
             ))}
-            <hr />
           </ProjectSection>
         </ScrollAnimation>
 
