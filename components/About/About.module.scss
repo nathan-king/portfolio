@@ -44,7 +44,7 @@
 @media (max-width: $lg) {
   .container {
     padding: 1rem;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .photo {
