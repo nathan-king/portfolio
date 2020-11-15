@@ -16,7 +16,7 @@ export default function Hero({ splash }) {
             Hi there, my name is
           </Typist>
         ) : (
-          <>Hi there, my name is</>
+          <>H</>
         )}
       </p>
 
