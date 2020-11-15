@@ -15,7 +15,9 @@ export default function Hero({ splash }) {
           >
             Hi there, my name is
           </Typist>
-        ) : null}
+        ) : (
+          <>Hi there, my name is</>
+        )}
       </p>
 
       <h1 className={styles.heading}>Nathan King.</h1>
