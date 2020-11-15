@@ -40,7 +40,7 @@ export default function Home() {
         {/* HERO */}
 
         <ScrollAnimation animateIn="fadeIn">
-          <Hero />
+          <Hero splash={splash} />
         </ScrollAnimation>
 
         {/* ABOUT */}

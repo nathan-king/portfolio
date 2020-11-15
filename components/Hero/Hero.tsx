@@ -4,16 +4,18 @@ import styles from "./Hero.module.scss";
 // @ts-ignore
 import Typist from "react-typist";
 
-export default function Hero() {
+export default function Hero({ splash }) {
   return (
     <div className={styles.container}>
       <p className={styles.preheading}>
-        <Typist
-          cursor={{ blink: true, hideWhenDone: true }}
-          avgTypingDelay={100}
-        >
-          Hi there, my name is
-        </Typist>
+        {!splash ? (
+          <Typist
+            cursor={{ blink: true, hideWhenDone: true }}
+            avgTypingDelay={100}
+          >
+            Hi there, my name is
+          </Typist>
+        ) : null}
       </p>
 
       <h1 className={styles.heading}>Nathan King.</h1>
