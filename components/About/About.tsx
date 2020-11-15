@@ -16,7 +16,7 @@ export default function About() {
           world. It was as a teenager that I first began to play around with
           code and build my own websites. I have always been intrigued by the
           relationship between human beings and the digital world. I began
-          studying psychology at university and to explore this relationship.
+          studying psychology at university to explore this relationship.
           Programming and web development have always been my greatest passion.
         </p>
       </div>

@@ -21,7 +21,7 @@ export default function Hero() {
         I build things for the web.
       </h1>
       <p className={styles.subheading}>
-        I'm a font-end developer based in Sydney, Australia. I build and design
+        I'm a front-end developer based in Sydney, Australia. I build and design
         React websites and web applications.
       </p>
     </div>
