@@ -13,9 +13,10 @@
 }
 
 .text {
-  // background-color: aquamarine;
-  max-width: 600px;
   position: relative;
+  max-width: 70%;
+  background-color: $color-opaque;
+  padding: 3rem;
   // flex: 1;
   text-align: justify;
 
@@ -40,14 +41,22 @@
   }
 }
 
+@media (max-width: $xl) {
+  .container {
+    background-color: $color-opaque;
+  }
+
+  .text {
+    max-width: 600px;
+    background-color: transparent;
+  }
+}
+
 @media (max-width: $lg) {
   .container {
     padding: 1rem;
     flex-direction: column-reverse;
-  }
-
-  .text {
-    background-color: $color-opaque;
+    background-color: transparent;
   }
 
   .photo {
@@ -68,6 +77,5 @@
   }
   .text {
     padding: 0;
-    background-color: transparent;
   }
 }
