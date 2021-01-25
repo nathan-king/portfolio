@@ -27,9 +27,7 @@ export default function Projects({ children, ...props }: any) {
           <a href={props.link} target="_blank">
             <img src={props.img} className={styles.img} />
           </a>
-        </div>
-      </div>
-      <div className={styles.links}>
+          <div className={styles.links}>
         <a className={styles.a} href={props.link} target="_blank">
           <FontAwesomeIcon icon={faEye} className={styles.icon} />
         </a>
@@ -37,6 +35,9 @@ export default function Projects({ children, ...props }: any) {
           <FontAwesomeIcon icon={faGithub} className={styles.icon} />
         </a>
       </div>
+        </div>
+      </div>
+      
     </div>
   );
 }

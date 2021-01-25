@@ -5,6 +5,10 @@
   width: 100%;
   text-align: center;
   margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 .contactBox {
@@ -78,6 +82,10 @@
 .image {
   width: 200px;
   border-radius: 50%;
+}
+
+.footer {
+    font-family: $font-mono;
 }
 
 @media (max-width: $sm) {

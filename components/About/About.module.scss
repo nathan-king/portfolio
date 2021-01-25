@@ -10,6 +10,7 @@
   align-items: center;
   padding: 3rem;
   border-radius: 4px;
+  height: 100vh;
 }
 
 .text {
@@ -44,6 +45,7 @@
 @media (max-width: $xl) {
   .container {
     background-color: $color-opaque;
+    height: auto;
   }
 
   .text {

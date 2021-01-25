@@ -19,19 +19,17 @@
   },
   {
     "id": 2,
-    "name": "Gym Venue Website",
-    "img": "/gym-venue-website.jpg",
+    "name": "Recoil Todo App",
+    "img": "/recoil-image.png",
     "direction": "row-reverse",
     "heading": "right",
-    "description": "This project is a static Next.js site. It utilises Bootstrap and SCSS modules for styling.",
-    "link": "https://gym-venue-website.vercel.app/",
-    "githubLink": "https://github.com/nathan-king/gym-venue-website",
+    "description": "This project is a React SPA. It utilises SCSS modules for styling and Recoil for global state management.",
+    "link": "https://recoil-todo-app.vercel.app/",
+    "githubLink": "https://github.com/nathan-king/recoil-todo-app",
     "features": [
       "React",
-      "Next.js",
+      "Recoil Global State Management",
       "SCSS/Sass",
-      "Reactstrap UI Components",
-      "Functional components",
       "Deployed with Vercel"
     ]
   }
