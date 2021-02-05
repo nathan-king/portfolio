@@ -7,10 +7,12 @@ import NavMobile from "../NavMobile/NavMobile";
 
 export default function Header() {
   return (
-    <div className={styles.container}>
-      <Logo />
-      <Navbar />
-      <NavMobile />
+    <div className={styles.nav}>
+      <div className={styles.container}>
+        <Logo />
+        <Navbar />
+        <NavMobile />
+      </div>
     </div>
   );
 }

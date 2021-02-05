@@ -2,7 +2,7 @@
 
 .container {
   min-width: 100%;
-  min-width: 100vw;
+  max-width: 100%;
   background-color: $color-primary;
   padding: 1rem 15%;
   z-index: 1;
@@ -26,9 +26,9 @@
 }
 
 @media (max-width: $xl) {
-    .container {
-        padding: 0 8rem;
-    }
+  .container {
+    padding: 0 8rem;
+  }
 }
 
 @media (max-width: $lg) {

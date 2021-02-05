@@ -1,8 +1,7 @@
 @import "../../styles/Variables.scss";
 
 .container {
-  padding: 2rem;
-  height: 100vh;
+  padding: 4rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -11,10 +10,11 @@
 }
 
 .skills {
+  padding: 2rem 0;
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  justify-content: space-between;
-  grid-gap: 1rem;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+  grid-gap: 2rem;
 }
 
 .icon {

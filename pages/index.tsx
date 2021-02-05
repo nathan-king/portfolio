@@ -1,6 +1,6 @@
 import Head from "next/head";
 // import "animate.css/animate.min.css";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 // @ts-ignore
 import ScrollAnimation from "react-animate-on-scroll";
 import Layout from "../components/Layout/Layout";

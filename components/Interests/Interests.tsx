@@ -3,22 +3,31 @@ import styles from "./Interests.module.scss";
 import Skill from "../Skill/Skill";
 import Subheading from "../Subheading/Subheading";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { InlineIcon } from "@iconify/react";
+import skills from "../../fixtures/skills";
 import {
-  faDesktop,
-  faFileCode,
-  faLaptopCode,
-} from "@fortawesome/free-solid-svg-icons";
-import {
-  faReact,
-  faSass,
-  faJsSquare,
-  faNodeJs,
-  faWordpressSimple,
-} from "@fortawesome/free-brands-svg-icons";
-import { TransitionGroup } from "react-transition-group";
+  IconPrefix,
+  IconName,
+  IconLookup,
+  IconDefinition,
+} from "@fortawesome/fontawesome-svg-core";
+import typescriptIcon from "@iconify-icons/logos/typescript-icon";
 
-export default function Interests() {
+// import {
+//   faDesktop,
+//   faFileCode,
+//   faLaptopCode,
+// } from "@fortawesome/free-solid-svg-icons";
+// import {
+//   faReact,
+//   faSass,
+//   faJsSquare,
+//   faNodeJs,
+//   faWordpressSimple,
+// } from "@fortawesome/free-brands-svg-icons";
+// import { TransitionGroup } from "react-transition-group";
+
+export default function Interests(): JSX.Element {
   const [on, setOn] = useState(false);
   const [flex, setFlex] = useState(false);
   const toggle = () => setOn(!on);
@@ -27,7 +36,19 @@ export default function Interests() {
     <div className={styles.container} id="skills">
       <Subheading number="ii."> Skills</Subheading>
       <div className={styles.skills}>
-        <Skill>
+        {skills.map(
+          (skill: {
+            name: any;
+            icon: IconDefinition | [IconPrefix, IconName] | IconLookup;
+          }) => (
+            <Skill>
+              {skill.name}
+              <FontAwesomeIcon icon={skill.icon} className={styles.icon} />
+            </Skill>
+          )
+        )}
+
+        {/* <Skill>
           Web Dev{" "}
           <FontAwesomeIcon icon={faLaptopCode} className={styles.icon} />
         </Skill>
@@ -56,7 +77,7 @@ export default function Interests() {
         <Skill>
           Node.js
           <FontAwesomeIcon icon={faNodeJs} className={styles.icon} />
-        </Skill>
+        </Skill> */}
       </div>
     </div>
   );
