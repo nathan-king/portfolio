@@ -10,4 +10,4 @@ A portfolio using React written in TypeScript
 
 ## Deployed
 
-This site is deployed at [nking.vercel.app](nking.vercel.app).
+This site is deployed at [nking.vercel.app](nking.vercel.app)
