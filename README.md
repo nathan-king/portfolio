@@ -1,6 +1,6 @@
 # Nathan King | Professional Portfolio
 
-A portfolio using React written in TypeScript
+A portfolio using React and written in TypeScript
 
 ## Tools
 
